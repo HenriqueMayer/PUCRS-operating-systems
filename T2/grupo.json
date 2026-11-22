@@ -1,0 +1,11 @@
+{
+  "integrantes": [
+    {"nome": "Eduardo Matte Zanardo dos Santos"},
+    {"nome": "Henrique Ramos Mayer"}
+  ],
+  "repositorio": "https://github.com/DuduMZSantos/T2_sisop",
+  "modulos": ["M3"],
+  "integracao": false,
+  "bonus_flash": false,
+  "observacoes": ""
+}
