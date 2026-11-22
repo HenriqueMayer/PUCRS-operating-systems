@@ -77,7 +77,8 @@ class SSTF(Escalonador):
     nome = "SSTF"
 
     def escolher(self, fila, cabeca, direcao, agora, max_cilindro):
-        raise NotImplementedError("TODO (núcleo N2): implementar o SSTF")
+        i = _mais_proximo(fila, cabeca, range(len(fila)))
+        return i, _direcao_para(fila[i].cilindro, cabeca, direcao), []
 
 
 class SCAN(Escalonador):
