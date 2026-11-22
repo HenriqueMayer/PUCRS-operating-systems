@@ -25,5 +25,20 @@ Comparem n_buffers = 1 (buffer simples), 2 (duplo) e 3 (circular).
 
 
 def simular_buffering(n_buffers, producao_ms, consumo_ms, blocos):
-    """Devolve dict com tempo_total_ms, bloqueio_produtor_ms e utilizacao_dispositivo_pct."""
-    raise NotImplementedError("TODO (M3): simular o buffering")
+  """Devolve dict com tempo_total_ms, bloqueio_produtor_ms e utilizacao_dispositivo_pct."""
+  fim_prod = [0.0] * (blocos + 1) # fim_prod[k]: produtor terminou o bloco k
+  fim_grav = [0.0] * (blocos + 1) # fim_grav[k]: dispositivo terminou de gravar o bloco k
+  bloqueio = 0.0
+  for k in range(1, blocos + 1):
+    livre = fim_grav[k - n_buffers] if k > n_buffers else 0.0
+    inicio_prod = max(fim_prod[k - 1], livre)
+    bloqueio += inicio_prod - fim_prod[k - 1]
+    fim_prod[k] = inicio_prod + producao_ms
+    fim_grav[k] = max(fim_prod[k], fim_grav[k - 1]) + consumo_ms
+  total = fim_grav[blocos]
+  util = 100.0 * blocos * consumo_ms / total if total > 0 else 0.0
+  return {
+  "tempo_total_ms": total,
+  "bloqueio_produtor_ms": bloqueio,
+  "utilizacao_dispositivo_pct": util,
+  }
