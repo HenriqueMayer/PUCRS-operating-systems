@@ -3,7 +3,7 @@
     {"nome": "Eduardo Matte Zanardo dos Santos"},
     {"nome": "Henrique Ramos Mayer"}
   ],
-  "repositorio": "https://github.com/DuduMZSantos/T2_sisop",
+  "repositorio": "https://github.com/HenriqueMayer/PUCRS-operating-systems/tree/main/T2",
   "modulos": ["M3"],
   "integracao": false,
   "bonus_flash": false,

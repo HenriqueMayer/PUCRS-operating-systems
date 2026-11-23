@@ -1,13 +1,13 @@
-/build/
+/T1/build/
 __pycache__/
 *.py[cod]
 
 # Materiais auxiliares e de apresentação preservados no acervo local.
-/records/
-/slides/
-/PDF/
-/docs/
-/reference/
+/T1/records/
+/T1/slides/
+/T1/PDF/
+/T1/docs/
+/T1/reference/
 
 # Áudio, vídeo, legendas e apresentações.
 *.aac

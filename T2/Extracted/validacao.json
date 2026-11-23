@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "structural_status": "passed",
+  "coverage_status": "complete",
+  "coverage_gaps": [],
+  "review_status": "complete",
+  "require_reviewed": true,
+  "review_pending": [],
+  "review_priority": [],
+  "counts": {
+    "documents": 1,
+    "pdf_pages": 6,
+    "visually_reviewed_pages": 6,
+    "notebook_cells": 0,
+    "saved_outputs": 0,
+    "saved_images": 0,
+    "embedded_pdf_images": 4,
+    "verified_assets": 12,
+    "local_links": 42,
+    "failed_sources": 0,
+    "image_failures": 0,
+    "ocr_candidates": 0,
+    "excluded_sources": 0,
+    "stale_outputs": 0
+  },
+  "failures": [],
+  "notes": [],
+  "tools": {
+    "python": "3.12.13",
+    "pypdf": "6.21.4",
+    "Pillow": "13.0.0",
+    "pdftotext": "pdftotext version 25.03.0"
+  },
+  "method": "Comparação com originais, hashes, cobertura por página/célula, MIME integral, imagens decodificáveis, links e âncoras. O texto PDF armazenado é comparado com nova execução do mesmo comando pdftotext; a comparação pdftotext × pypdf só define prioridade de revisão. Falhas registradas por fonte ou imagem tornam a cobertura incompleta, sem falha estrutural. Legibilidade/conteúdo visual dependem da revisão humana registrada. Sem OCR, execução de notebooks ou rede."
+}

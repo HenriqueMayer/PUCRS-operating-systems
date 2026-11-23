@@ -2,7 +2,7 @@
 
 **Integrantes:** [nome completo de TODOS os integrantes, separados por vírgula]
 
-**Repositório:** [https://github.com/usuario/repositorio — o repositório público do grupo]
+**Repositório:** https://github.com/HenriqueMayer/PUCRS-operating-systems/tree/main/T2
 
 <!--
 INSTRUÇÕES DO MODELO (apaguem este bloco antes de entregar)
