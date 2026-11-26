@@ -1,6 +1,6 @@
 # T1 — Contagem de objetos em matrizes binárias
 
-[Voltar ao índice do repositório](../README.md).
+[Voltar ao índice do repositório](../../README.md).
 
 Trabalho 1 de Sistemas Operacionais — PUCRS, 2026/II. Implementações em C89/C90 que contam regiões de células `1` conectadas pelos oito vizinhos, incluindo diagonais.
 

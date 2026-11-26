@@ -1,6 +1,6 @@
 # T2 — SimES: simulador de E/S e de arquivos
 
-Segundo trabalho de Sistemas Operacionais (98700-04, turma 330, 2026/II, Prof. Filipo Novo Mór). Este arquivo resume os requisitos do enunciado. A implementação do grupo está em [`T2/`](../README.md), neste repositório. [Voltar ao índice do repositório](../../README.md).
+Segundo trabalho de Sistemas Operacionais (98700-04, turma 330, 2026/II, Prof. Filipo Novo Mór). Este arquivo resume os requisitos do enunciado. A implementação do grupo está em [`Trabalho/T2/`](../README.md), neste repositório. [Voltar ao índice do repositório](../../../README.md).
 
 O enunciado é a referência. Este resumo não o substitui.
 
@@ -20,7 +20,7 @@ O enunciado é a referência. Este resumo não o substitui.
 
 - Somente o relatório final vai para o Moodle, em PDF. **Cada integrante** o envia até 26/11/2026, 23h59.
 - Código, `resultados/` e `graficos/` vão para um **repositório público novo do grupo**. Copie para ele a pasta `Trabalho_IO_2026II` do professor. O professor avalia o repositório no estado em que estava no prazo.
-- O grupo usa este repositório, pasta `T2/`, em vez de um repositório novo só para o T2. O `grupo.json` e o `RELATORIO.md` apontam para ele desde 2026-11-23.
+- O grupo usa este repositório, pasta `Trabalho/T2/` (`T2/` até 2026-11-24), em vez de um repositório novo só para o T2. O `grupo.json` e o `RELATORIO.md` apontam para `.../tree/main/Trabalho/T2` desde 2026-11-25.
 - Preencha `grupo.json` (nomes, link do repositório, módulos, integração, bônus) e `RELATORIO.md`. O topo do relatório deve mostrar o nome completo de todos os integrantes e o link do repositório.
 - Execute `python3 ferramentas/validar_entrega.py` até não haver erros. Depois faça o push e abra o repositório numa janela anônima do navegador para confirmar o acesso.
 - Não coloque matrícula, e-mail, telefone, CPF, senhas, tokens, chaves de API ou arquivos `.env` no repositório público. Os nomes aparecem somente no relatório e no `grupo.json`.
@@ -118,3 +118,5 @@ Marcadores `NotImplementedError("TODO …")` por arquivo: `arquivos/sistema.py` 
 | 2026-11-12 | `/T2/` retirado do `.gitignore` por decisão do usuário: a pasta, incluindo o PDF do professor, passou a fazer parte da árvore de trabalho a versionar. Sem commit. |
 | 2026-11-12 | README traduzido para pt-BR. |
 | 2026-11-23 | Implementação do grupo (Eduardo Santos, commits `58f1199`, `4f0712b` e `3fbd1e8`) integrada em `T2/`. Este resumo foi movido de `T2/README.md` para `T2/Enunciado/README.md`, porque `T2/README.md` passou a ser o README do código. Links ajustados ao novo local. Corrigida a afirmação de que a implementação ficava em outro repositório. |
+| 2026-11-24 | `T2/` movido para `Trabalho/T2/` na reorganização do repositório. |
+| 2026-11-25 | Experimentos X1–X5 e X8 executados localmente; `resultados/` e `graficos/` gerados pelos scripts fornecidos. `RELATORIO.md` preenchido. Link do repositório em `grupo.json` e no relatório atualizado para `Trabalho/T2`. Validador da entrega: 0 erros e 0 avisos. Sem commit. |

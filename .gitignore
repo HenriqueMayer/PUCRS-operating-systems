@@ -1,13 +1,14 @@
-/T1/build/
+/Trabalho/T1/build/
 __pycache__/
 *.py[cod]
 
 # Materiais auxiliares e de apresentação preservados no acervo local.
-/T1/records/
-/T1/slides/
-/T1/PDF/
-/T1/docs/
-/T1/reference/
+/Trabalho/T1/records/
+/Trabalho/T1/slides/
+/Trabalho/T1/PDF/
+/Trabalho/T1/docs/
+/Trabalho/T1/reference/
+/Material
 
 # Áudio, vídeo, legendas e apresentações.
 *.aac
@@ -33,3 +34,13 @@ __pycache__/
 .agents/
 AGENTS.md
 CODEX.md
+
+# Course material (Material/), organized on 2026-11-24.
+# Git keeps the original PDFs under Material/Fontes/ and the hand-written notes.
+# Other original formats, the content-extract output and the download records
+# stay local; they are copied to Google Drive.
+/Material/Fontes/**
+!/Material/Fontes/**/
+!/Material/Fontes/**/*.[pP][dD][fF]
+/Material/Extracted/
+/Material/*.json
